@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Xaid-vfx/Assignment1/static/css/main.e860feda.css",
+    "main.js": "/Xaid-vfx/Assignment1/static/js/main.934cc9c9.js",
+    "static/js/787.0420ccf9.chunk.js": "/Xaid-vfx/Assignment1/static/js/787.0420ccf9.chunk.js",
+    "index.html": "/Xaid-vfx/Assignment1/index.html",
+    "main.e860feda.css.map": "/Xaid-vfx/Assignment1/static/css/main.e860feda.css.map",
+    "main.934cc9c9.js.map": "/Xaid-vfx/Assignment1/static/js/main.934cc9c9.js.map",
+    "787.0420ccf9.chunk.js.map": "/Xaid-vfx/Assignment1/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e860feda.css",
+    "static/js/main.934cc9c9.js"
+  ]
+}
