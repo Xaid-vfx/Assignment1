@@ -43,7 +43,10 @@
 }
 
 .reset{
-  background-color: inherit;
+  background-color:#9063CD;
+  padding: 10px;
+  border-radius: 10px;
+  color:white;
   border: 0;
   margin-left: 13px;
 }
