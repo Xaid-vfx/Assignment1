@@ -38,8 +38,6 @@ export default function Filter(props) {
                 year=year+time[i];
             }
         }
-        console.log(year);
-        console.log(parseInt(date));
         props.send({ 'loc': location, 'time': parseInt(date),'year':parseInt(year), 'high': high, 'low': low, 'type': type });
     }
 
