@@ -17,7 +17,7 @@ export default function App() {
   }
 
   let i=0,j=0;
-  console.log(loc);   
+  
   
   let data=[{
     url:'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvcGVydHl8ZW58MHx8MHx8&w=1000&q=80',
@@ -199,9 +199,6 @@ export default function App() {
         
         data.map(element => {
           i++;
-          console.log(loc.date<element.date);
-          // console.log("loc"+loc.time)
-          //   console.log("element"+element.date)
           if((loc.loc?(loc.loc!='Select Location'?element.country==loc.loc:true):(true))
            && 
            (loc.high?element.price<=loc.high&&element.price>=loc.low:true) 
