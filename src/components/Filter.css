@@ -60,19 +60,22 @@
   /* For mobile phones: */
   .filter{
     display: none;
+    text-align: center;
+    padding: 30px 50px;
   }
+ 
   .vl{
     height: 0;
     width: 100%;
     border: 1px solid grey;
     opacity: 0.2; 
+    margin: 10px;
   }
   .toggle{
     display: block;
     cursor: pointer;
     width: 40%;
     padding-block: 10px;
-    
   }
-  
+ 
 }
