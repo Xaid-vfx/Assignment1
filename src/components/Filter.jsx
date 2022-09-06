@@ -58,7 +58,7 @@ export default function Filter(props) {
                     settoggle(false)
                 }
             }}><button className='reset'>{!toggle ? "Show" : "Hide"} filters
-                    {!toggle ? <FontAwesomeIcon className='icon' icon={faFilter} /> : <FontAwesomeIcon className='icon' icon={faMinimize} />}</button> </div>
+                    {!toggle ? <FontAwesomeIcon icon={faFilter} /> : <FontAwesomeIcon  icon={faMinimize} />}</button> </div>
             <div className='filter' id="filter">
 
                 <div className='boxes'>
