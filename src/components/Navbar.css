@@ -1,0 +1,87 @@
+.navcom{
+    background-color: inherit !important;
+}
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+.icon{
+    color: #9063CD;
+    
+}
+
+.title{
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.gap{
+    display: flex;
+    gap: 20px;
+}
+
+#center{
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupbtn{
+    background-color:  	 	#9063CD !important;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.loginbtn{
+    border: 1px solid;
+    color: #9063CD;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+
+
+.Rent{
+    background-color:#EDE3FF;
+    color:#9063CD  !important;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-inline: 20px !important;
+}
+
+
+
+.other{
+    padding-inline: 20px !important;
+    border-radius: 10px !important;
+    background-color:inherit !important;
+    color: black !important;
+    border: 0 !important;
+}
+.other:hover{
+    background-color: #9063CD !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    /* For mobile phones: */
+    .Rent{
+        margin-left: 0px;
+    }
+    
+  }
+
+
